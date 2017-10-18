@@ -1,0 +1,17 @@
+{
+  "name": "twitter-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "twitter-node-client": "0.0.6",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "promise": "^8.0.0"
+  }
+}
