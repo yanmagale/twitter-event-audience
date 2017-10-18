@@ -13,14 +13,18 @@ This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSCli
 > Example
 
 ```
+hastag = "#myawesomehastag"
 consumerKey = "myawesomeproject"
 consumerSecret = "myawesomeproject"
 accessToken = "myawesomeproject"
 accessTokenSecret = "myawesomeproject"
 callBackUrl = "myawesomeproject"
 ```
+- You will get this informations at [Twitter API](https://developer.twitter.com/en/docs/basics/getting-started)
 
 # How to Use
+
+- Run `node app.js` in your terminal
 - Call `http://localhost:3000/event-audience`
 
 - You will received a similar response to this:
@@ -36,4 +40,4 @@ callBackUrl = "myawesomeproject"
 
 # Next Steps
 - Deploy to Heroku or other online service
-- Receive a escecific hastag to seach
+- Receive a especific hastag to seach
