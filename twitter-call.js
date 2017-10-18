@@ -14,7 +14,7 @@ const twitter = new Twitter(config);
 
 exports.searchTweets = function () {
   return new Promise((resolve, reject) => {
-    twitter.getSearch({ 'q': '#dfne2k17', 'result_type': 'mixed', 'exclude': 'retweets' },
+    twitter.getSearch({ 'q': process.env.hastag, 'result_type': 'mixed', 'exclude': 'retweets', 'count': 10 },
       function (err, response, body) {
         console.log('ERROR Search Twitter API', err);
         reject(new Error('object failed'));
