@@ -5,7 +5,7 @@ WIP - A node service to return tweets what people saying about your event
 # How it works
 This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSClient) to connect with Twitter API and get informations
 
-#Setup
+# Setup
 - Clone this project
 - Run `npm i`
 - Create a `.env` file with TwitterAPI Credentials.
