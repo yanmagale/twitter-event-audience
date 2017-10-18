@@ -8,7 +8,7 @@ This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSCli
 #Setup
 - Clone this project
 - Run `npm i`
-- Create a `.evn` file with TwitterAPI Credentials.
+- Create a `.env` file with TwitterAPI Credentials.
 
 > Example
 
