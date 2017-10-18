@@ -1,9 +1,24 @@
-# twitter-event-audience
+# Twitter Event Audience
+
 WIP - A node service to return tweets what people saying about your event
 
 # How it works
 This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSClient) to connect with Twitter API and get informations
 
+#Setup
+- Clone this project
+- Run `npm i`
+- Create a `.evn` file with TwitterAPI Credentials.
+
+> Example
+
+```
+consumerKey = "myawesomeproject"
+consumerSecret = "myawesomeproject"
+accessToken = "myawesomeproject"
+accessTokenSecret = "myawesomeproject"
+callBackUrl = "myawesomeproject"
+```
 
 # How to Use
 - Call `http://localhost:3000/event-audience`
@@ -20,4 +35,5 @@ This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSCli
 ```   
 
 # Next Steps
-- Deploy to Heroku or other service
+- Deploy to Heroku or other online service
+- Receive a escecific hastag to seach

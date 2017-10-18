@@ -1,6 +1,6 @@
-var express = require('express');
-var cors = require('cors');
-var app = express();
+const express = require('express');
+const cors = require('cors');
+const app = express();
 const twitterIntegrator = require('./twitter-integrator.js');
 
 app.use(cors());

@@ -9,9 +9,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "twitter-node-client": "0.0.6",
     "cors": "^2.7.1",
+    "dotenv": "^4.0.0",
     "express": "^4.13.4",
-    "promise": "^8.0.0"
+    "promise": "^8.0.0",
+    "twitter-node-client": "0.0.6"
   }
 }
