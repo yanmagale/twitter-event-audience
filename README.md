@@ -24,10 +24,15 @@ callBackUrl = "myawesomeproject"
 
 # How to Use
 
+## Offline Use
 - Run `node app.js` in your terminal
 - Call `http://localhost:3000/event-audience`
 
-- You will received a similar response to this:
+## Online
+- Call `https://twittereventaudience-twittereventaudience.wedeploy.io/event-audience`
+
+
+- At both of modes, you will received a similar response to this:
 
 ```
 {  
@@ -39,5 +44,4 @@ callBackUrl = "myawesomeproject"
 ```   
 
 # Next Steps
-- Deploy to Heroku or other online service
-- Receive a especific hastag to seach
+- Receive a especific hastag in client-side to seach
