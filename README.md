@@ -1,6 +1,6 @@
 # Twitter Event Audience
 
-WIP - A node service to return tweets what people saying about your event
+A node service to return tweets what people saying about your event
 
 # How it works
 This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSClient) to connect with Twitter API and get informations
@@ -29,6 +29,8 @@ callBackUrl = "myawesomeproject"
 - Call `http://localhost:3000/event-audience`
 
 ## Online
+> This service is using [WeDeploy](https://wedeploy.com/) <3
+
 - Call `https://twittereventaudience-twittereventaudience.wedeploy.io/event-audience`
 
 
