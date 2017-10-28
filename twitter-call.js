@@ -12,9 +12,10 @@ const config = {
 
 const twitter = new Twitter(config);
 
-exports.searchTweets = function () {
+exports.searchTweets = function (hashtag = '') {
   return new Promise((resolve, reject) => {
-    twitter.getSearch({ 'q': process.env.hastag, 'result_type': 'mixed', 'exclude': 'retweets', 'count': 10 },
+    const hastagSearch = treatmentsHastagToSearch(hashtag)
+    twitter.getSearch({ 'q': hastagSearch, 'result_type': 'mixed', 'exclude': 'retweets', 'count': 10 },
       function (err, response, body) {
         console.log('ERROR Search Twitter API', err);
         reject(new Error('object failed'));
@@ -25,4 +26,11 @@ exports.searchTweets = function () {
         resolve(result);
       });
   });
+}
+
+function treatmentsHastagToSearch(hashtag) {
+  if (hashtag.length > 0) {
+    return "#" + hashtag
+  }
+  return process.env.hastag
 }

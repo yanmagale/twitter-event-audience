@@ -6,7 +6,7 @@ const twitterIntegrator = require('./twitter-integrator.js');
 app.use(cors());
 
 app.get('/event-audience', function (req, res) {
-    twitterIntegrator.getTweets()
+    twitterIntegrator.getTweets(req.query.hashtag)
     .then((response) => {
        res.send(response);
     })

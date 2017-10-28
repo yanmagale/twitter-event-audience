@@ -1,38 +1,39 @@
 # Twitter Event Audience
 
-WIP - A node service to return tweets what people saying about your event
+A node service to return tweets what people saying about your event
 
 # How it works
 This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSClient) to connect with Twitter API and get informations
 
-# Setup
-- Clone this project
-- Run `npm i`
-- Create a `.env` file with TwitterAPI Credentials.
-
-> Example
-
-```
-hastag = "#myawesomehastag"
-consumerKey = "myawesomeproject"
-consumerSecret = "myawesomeproject"
-accessToken = "myawesomeproject"
-accessTokenSecret = "myawesomeproject"
-callBackUrl = "myawesomeproject"
-```
-- You will get this informations at [Twitter API](https://developer.twitter.com/en/docs/basics/getting-started)
-
 # How to Use
 
-## Offline Use
+## Offline 
+
+- Setup
+  - Clone this project
+  - Run `npm i`
+  - Create a `.env` file with TwitterAPI Credentials.
+
+  > Example
+
+  ```
+  hastag = "#myawesomehastag"
+  consumerKey = "myawesomeproject"
+  consumerSecret = "myawesomeproject"
+  accessToken = "myawesomeproject"
+  accessTokenSecret = "myawesomeproject"
+  callBackUrl = "myawesomeproject"
+  ```
+  _You will get this informations at [Twitter API](https://developer.twitter.com/en/docs/basics/getting-started)_
+
 - Run `node app.js` in your terminal
 - Call `http://localhost:3000/event-audience`
 
 ## Online
-- Call `https://twittereventaudience-twittereventaudience.wedeploy.io/event-audience`
+- Call `https://twittereventaudience-twittereventaudience.wedeploy.io/event-audience?hashtag=myeventhastag`
 
 
-- At both of modes, you will received a similar response to this:
+**At both of modes, you will received a similar response to this:**
 
 ```
 {  
@@ -44,4 +45,7 @@ callBackUrl = "myawesomeproject"
 ```   
 
 # Next Steps
-- Receive a especific hastag in client-side to seach
+- Improve error responses
+- Improve structure to mount response
+- Get more tweets, no limited a 10 results
+- Create a unit tests

@@ -2,9 +2,9 @@ const Promise = require('promise');
 const twitter = require('./twitter-call.js');
 let objData = [];
 
-exports.getTweets = function(){
+exports.getTweets = function(hashtag = ''){
    return new Promise((resolve, reject) => {
-    twitter.searchTweets()
+    twitter.searchTweets(hashtag)
     .then((response) => {
       response.statuses.map((item) => {
         objData.push({'item': item.text, 'name':item.user.name, 
