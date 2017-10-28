@@ -49,5 +49,4 @@ This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSCli
 # Next Steps
 - Improve error responses
 - Improve structure to mount response
-- Get more tweets, no limited a 10 results
 - Create a unit tests
