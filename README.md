@@ -32,7 +32,7 @@ This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSCli
 ## Online
 > This service is using [WeDeploy](https://wedeploy.com/) <3
 
-- Call `https://twittereventaudience-twittereventaudience.wedeploy.io/event-audience?hashtag=myeventhastag`
+- Call `https://twittereventaudience-twittereventaudience.wedeploy.io/event-audience`
 
 
 **At both of modes, you will received a similar response to this:**
@@ -47,6 +47,7 @@ This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSCli
 ```   
 
 # Next Steps
+- Update online service with new features
 - Improve error responses
 - Improve structure to mount response
 - Create a unit tests
