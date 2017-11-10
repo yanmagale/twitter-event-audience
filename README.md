@@ -7,8 +7,6 @@ This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSCli
 
 # How to Use
 
-## Offline 
-
 - Setup
   - Clone this project
   - Run `npm i`
@@ -29,13 +27,7 @@ This project using a [Twitter JS Client](https://github.com/BoyCook/TwitterJSCli
 - Run `node app.js` in your terminal
 - Call `http://localhost:3000/event-audience`
 
-## Online
-> This service is using [WeDeploy](https://wedeploy.com/) <3
-
-- Call `https://twittereventaudience-twittereventaudience.wedeploy.io/event-audience`
-
-
-**At both of modes, you will received a similar response to this:**
+**You will received a similar response to this:**
 
 ```
 {  
